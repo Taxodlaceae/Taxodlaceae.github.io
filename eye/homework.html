@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    
+
+    <title>Hello, world!</title>
+
+    <style>
+       body {
+         padding-top: 60px;
+       }
+            .swiper-container {
+              width: 100%;
+              height: 100%;
+            }
+            
+            
+          
+            .nav-item {
+                margin-top:10px ;
+                font-size: 15px;
+            }
+
+            .ml-auto .dropdown-menu {
+                left: auto !important;
+                right: 0px;
+            }
+
+            .card-deck {
+                margin-top: 50px;
+            }
+
+            .bg-img {
+                 /* width: 100%; */
+                height: 600px;
+                background-size: cover;
+                background-position: center;
+                
+            }
+
+            
+            .col-gold-left {
+                float: left;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 50px;
+                width: 61.8%;
+            }
+
+           .col-gold-right {
+                float: left;
+                padding-left: 15px;
+                padding-right: 15px;
+                width: 38.2%;
+                
+            }
+
+            .row {
+              padding-top: 50px;
+            }
+
+          </style>
+
+  </head>
+
+  <body>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    
+    <!-- navbar-dark 文字顏色 .bg-dark 背景顏色 -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container"> <!-- diff : .container寫在nav內 -->
+            <a class="navbar-brand sticky" href="index.html">WebDesign</a>
+           
+            <!-- .navbar-toggler 漢堡式選單按鈕 -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Supported-Content" aria-controls="navbar-Supported-Content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span><!-- diff : 漢堡式選單按鈕 -->
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbar-Supported-Content">
+                    <!-- diff : collapse.navbar-collapse 用於外層中斷點群組和隱藏導覽列內容 -->
+                    <!-- 選單項目&漢堡式折疊選單 -->
+
+                <ul class="navbar-nav ml-auto"><!-- diff : 網頁的右上方選項 --> 
+                <ul class="navbar-nav"> 
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#">首頁</a></li>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#">關於</a></li>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#">活動須知</a></li>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#">Log in</a></li>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#">Log out</a></li>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#">Admin</a></li>
+              
+            <nav class="navbar navbar-light"><!-- diff : 搜尋按鈕 -->
+              <form class="form-inline">
+                  <input class="form-15 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">Search</button>
+              </form>
+          </nav>
+
+        </div>
+    </div>
+</nav>
+
+<section id="banner">
+   <!-- Swiper -->
+   <div class="swiper-container"><!-- diff : banner 輪播效果 -->
+    <div class="swiper-wrapper ">
+      <!-- <div class="swiper-slide"><img class="img-01" src="http://www.lotsfun.com.tw/upload/articles/20170628151534383_new.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="img-01" src="http://www.lotsfun.com.tw/upload/articles/20170628151534383_new.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="img-01" src="http://www.lotsfun.com.tw/upload/articles/20170628151534383_new.jpg" alt=""></div> -->
+      <div class="swiper-slide bg-img" style="background-image: url(http://www.lotsfun.com.tw/upload/articles/20170628151534383_new.jpg);"></div>
+      <div class="swiper-slide bg-img" style="background-image: url(http://www.lotsfun.com.tw/upload/articles/20170628151534383_new.jpg);"></div>
+      <div class="swiper-slide bg-img" style="background-image: url(http://www.lotsfun.com.tw/upload/articles/20170628151534383_new.jpg);"></div>
+    </div>
+  
+    <!-- Add Pagination banner 效果-->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+  </script>
+</section>    
+
+<section>
+  <div class="container"><!-- diff : 黃金比例切割 左文右圖 -->
+      <div class="row align-items-center">
+        <div class="col-gold-left order-2 order-md-1">
+        <h1>我是標題</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Possimus optio dignissimos 
+          nihil molestias quibusdam commodi nostrum necessitatibus 
+          ipsum dolorem repellat repudiandae ut eum ipsa, 
+          fugiat voluptates in ratione aut natus.</p>
+      </div>
+      <div class="col-gold-right order-1 order-md-2">
+        <img src="https://pic4.zhimg.com/v2-17fbafdb5b95cbcff27f9023c5b78722_1200x500.jpg" width="100%" alt="">
+      </div>
+    </div>
+</div>
+</section>
+
+
+        
+<section>
+  <div class="container"><!-- diff : 3張小卡片 -->
+  <div class="card-deck">
+  <div class="card col-12 col-md-4">
+    <img src="https://pic4.zhimg.com/v2-17fbafdb5b95cbcff27f9023c5b78722_1200x500.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://pic4.zhimg.com/v2-17fbafdb5b95cbcff27f9023c5b78722_1200x500.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://pic4.zhimg.com/v2-17fbafdb5b95cbcff27f9023c5b78722_1200x500.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>   
+</div>
+</section>
+
+<main>
+<section id="information"><!-- diff : 兩張圖兩個內容一上一下 -->
+  <div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 mb-3"><!-- diff : 行12 col-md-數字 mb高度 >992px螢幕尺寸-->
+      <img class="p-2" src="https://truth.bahamut.com.tw/s01/201803/1113a35e225214071253f688136967bf.JPG" width="100%" alt="">
+    </div>
+    <div class=" col-12 col-md-6 mb-3">
+      <h1>Test1</h1>
+     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse doloribus? Ut, 
+      exercitationem culpa fugiat vitae nemo, obcaecati natus tempora voluptatem, laborum minus 
+      accusantium totam quibusdam optio odit quos.
+    </p>
+    </div>
+  
+    <div class="col-12 col-md-6 order-md-2 mb-3"><!-- diff : order 順序 在>992尺寸切換-->
+      <img src="https://pic4.zhimg.com/v2-17fbafdb5b95cbcff27f9023c5b78722_1200x500.jpg" width="100%" alt="">
+    </div>
+     
+      <div class="col-12 col-md-6 order-md-1 mb-3">
+          <h1>Test2</h1>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse doloribus? Ut, 
+          exercitationem culpa fugiat vitae nemo, obcaecati natus tempora voluptatem, laborum minus 
+          accusantium totam quibusdam optio odit quos.
+          </p>
+        </div>
+      </div>
+  </div>
+
+</section>
+</main>
+
+
+<footer class="page-footer font-small blue bg-secondary"><!-- diff : 資料來源網址 -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+
+        
+
+
+</body>
+</html>
