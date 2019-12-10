@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!-- .icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="new-work.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light navbar-expand-lg bg-light justify-content-md-center justify-content-start fixed-top">
+        <div class="logo">
+
+            <img src="/img/navLogo.png" alt="">
+        </div>
+
+        <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-md-center text-left ">
+                <li class="nav-item col">
+                    <!-- diff : col間距 -->
+                    <a class="nav-link" href="#">遊戲</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link" href="#">社區</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link " href="#">公告</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-icons ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">繁體中文</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">1
+                        <i class="fas fa-bell"></i>
+                    </a>
+                </li>
+            </ul>
+            <li class="navbar-nav nav-item avatar dropdown ">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle z-depth-0"
+                        alt="avatar image">
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
+                    aria-labelledby="navbarDropdownMenuLink-55">
+                    <a class="dropdown-item" href="#">個人資料</a>
+                    <a class="dropdown-item" href="#">設定</a>
+                    <a class="dropdown-item" href="#">登出</a>
+                </div>
+            </li>
+        </div>
+    </nav>
+
+    <header>
+        <!-- diff : banner mp4 -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="/img/videoplayback.mp4" type="video/mp4">
+        </video>
+
+        <div class="cd-hero__slider">
+            <div class="box container">
+                <h3 class="text-white">TENNOGEN 第 17 輪</h3>
+                <p class="text-white">TennoGen 第 17 輪已登陸於 PC 平臺！我們最新由 Tenno 設計的裝飾包含了 Warframe 外觀、指揮官配件、披飾，以及更多精采道具！</p>
+                <button id="myBtn" onclick="myFunction()">了解更多</button>
+            </div>
+            <script>
+                var video = document.getElementById("myVideo");
+                var btn = document.getElementById("myBtn");
+
+                function myFunction() {
+                    if (video.paused) {
+                        video.play();
+                        btn.innerHTML = "Pause";
+                    } else {
+                        video.pause();
+                        btn.innerHTML = "Play";
+                    }
+                }
+            </script>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container">
+            <!-- diff :左文右圖 -->
+            <div class="row align-items-center">
+                <div class="col-gold-left order-2 order-md-1">
+                    <h1>故事模式</h1>
+                    <p>他們被稱作 Tenno。是槍和劍的勇士：Warframe 盔甲的主人。
+                        <br>那些古老戰爭的幸存者在廢墟中漂流，現在他們再一次被需要。</br>
+                        <br>Grineer 和他們龐大的軍隊在整個太陽系擴張。</br>
+                        一個召喚 Tenno 到一個古老地方的聲音回響在整個星際。
+                        <br>他們在召喚你。</br>
+                        讓 Lotus 引導你。 她將你從低溫密室中解救了出來，給予你生存的機會。Grineer 會找到你，你必須做好準備。Lotus 將傳授你 Warframes
+                        的使用方法和解開它們力量的秘密方法。
+                        <br>來吧 TENNO，你必須參戰。</br></p>
+                </div>
+                <div class="col-gold-right order-1 order-md-2">
+                    <img src="/img/TennoFinal.jpg" width="80%" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="box">派系</h2>
+            <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="/img/Warframe-FactionGrineer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GRINEER</h5>
+                        <p class="card-text">人說數量就是力量－Grineer
+                            就是活生生的證明。歷經數個世紀以來的複製，使他們的基因不斷衰退。但這群人透過武力擴張他們的邪惡帝國，征服任何試圖阻擋他們的人。</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/steamworkshop_webupload_previewfile_204728816_preview.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CORPUS</h5>
+                        <p class="card-text">Corpus 徹底體現了宇宙中的寒冷真空－無情地奪取一切未受保護的事物。在利益的驅使之下，為求快速有效的破壞，Corpus
+                            商會的部分人員會大量使用代理機器人。</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/infested.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">INFESTED</h5>
+                        <p class="card-text">Infestation
+                            不僅僅只是一種疾病－更該說是由扭曲的肉塊與怪物所混和成的真實恐懼。這種疾病會佔據它的受害者，將受害者變成只受瘋狂衝動所控、面目全非的殘暴生物。
+                            共享意志的 Infested 本應是存在於夢靨中的惡獸，但現在卻開始入侵太空船和殖民地，隨後只留下死亡與破壞。</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/7zmGcNU.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SENTIENTS</h5>
+                        <p class="card-text">來自遠古之戰的竊竊私語開始從最濃重的陰影中逃離，什麼樣的駭人秘密會被召喚出來？</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--auto compiled css & Js-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- JavaScript for adding  
+slider for multiple images 
+shown at once-->
+    <script type="text/javascript">
+        $(window).load(function () {
+            $(".carousel .item").each(function () {
+                var i = $(this).next();
+                i.length || (i = $(this).siblings(":first")),
+                    i.children(":first-child").clone().appendTo($(this));
+
+                for (var n = 0; n < 4; n++)(i = i.next()).length ||
+                    (i = $(this).siblings(":first")),
+                    i.children(":first-child").clone().appendTo($(this))
+            })
+        }); 
+    </script>
+
+    <section>
+            <div class="container">
+                    <h2 class="box">戰甲</h2>
+                </div>
+       
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-AshIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-AtlasIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-BansheeIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-BaruukIcon272.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-ChromaIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-EmberIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-EquinoxIcon.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-ExcaliburIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-FrostIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-GaraIcon64.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-GarudaIcon272.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="#">
+                                        <img src="/img/60px-HarrowIconNewLook.png" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+
+                    </div>
+                    <!--.carousel-inner-->
+                </div>
+                <!--.Carousel-->
+            </div>
+    </section>
+
+    <section>
+            <div class="container">
+                    <h2 class="box">遊戲社區</h2>
+                    <div class="row">
+            <div class="card-columns">
+                    <div class="card">
+                            <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=26143&tnum=110">
+                      <img src="/img/Inked_2019_11_03_21_07_45_876_LI.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">赤毒巫妖集中串</h5>
+                        <p class="card-text">把你的巫妖貼上來跟已知情報彙整</p></a>
+                      </div>
+                    </div>
+                    <div class="card p-3">
+                      <blockquote class="blockquote mb-0 card-body">
+                            <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=26235&tnum=4">
+                        <p>熱修 26.0.7</p>
+                        <footer class="blockquote-footer">
+                          <small class="text-muted">
+                                The Old Blood: Hotfix 26.0.7 
+                                <br>Kuva Lich Changes & Fixes
+                                我們正在處理許多 “The Old Blood’ 的熱修, 且我們還有許多要素要加入:皈依巫妖交易: 如果你有皈依的巫妖, 你可以跟其他正在尋找特定武器或是幻紋的人交易. 這系統需要使用新的道場房間，且巫妖只能被交易一次!不能再交易給其他人!</br>
+                                <cite title="Source Title">https://forums.warframe.com/topic/1142475-the-old-blood-hotfix-2607/ 原文出處</cite></a>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="card">
+                            <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=18645&tnum=1935">
+                      <img src="/img/1a72fcd6d8410d0797d0c7e9bbdad43c.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">有一種MOD叫運氣</h5>
+                        <p class="card-text">讓我們談談紫色改造卡的可能性
+                            <br>土豪說，錢能解決的事情都是小事
+                            對Tenno來說，肝能解決的事情也是小事</br>
+                        </p></a>
+                      </div>
+                    </div>
+                    <div class="card  text-white text-center p-3">
+                      <blockquote class="blockquote mb-0">
+                            <a href="https://forum.gamer.com.tw/A.php?bsn=22797">
+                        <p>巴哈姆特-Warframe</p>
+                        <footer class="blockquote-footer text-white">
+                          <small>
+                            作品介紹:《戰甲神兵》<cite title="Source Title"><br>2542 筆精華，今天 更新
+                                    一個月內新增 19 筆
+                                    歡迎加入共同維護。</cite></br></a>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="card text-center">
+                      <div class="card-body">
+                            <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=26226&tnum=5&bPage=2">
+                        <h5 class="card-title">開發者工作室：赤毒巫妖 即將到來的改變</h5>
+                        <p class="card-text">自從U26:上古赤血釋出了赤毒巫妖之後，你們提供了許多在獵殺個人巫妖時喜歡與不喜歡的回饋。
+                                我們在上週做出了不少改進，不過我們仍然有些新東西。根據你們的回饋，我們將加入以下內容：</p></a>
+                      </div>
+                    </div>
+                    <div class="card"> 
+                        <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=17207&tnum=379">
+                      <img src="/img/984321cc2489ccaf9283e45244c3eb43.jpg" class="card-img-top" alt="..."></a>
+                    </div>
+                    <div class="card p-3 text-right">
+                      <blockquote class="blockquote mb-0">
+                            <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=26227&tnum=1&bPage=2">
+                        <p>VAUBAN 及 ASH PRIME VAULT即將於台灣時間20號出庫</p>
+                        <footer class="blockquote-footer">
+                          <small class="text-muted">
+                                匿蹤及戰術大師重返了！
+
+                                從寶庫凱旋歸來，Ash Prime 及 Vauban Prime 能令任何 Tenno 的軍械庫錦上添花。現在就是你立即獲得這些 Warframe 以及他們的武器的大好機會！
+                                
+                                為了讓位給這 2 件 Prime 寶物，Saryn Prime 及 Valkyr Prime 將會於美東夏令時間11月20日下午兩時重返寶庫。 </a>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                            <a href="https://forum.gamer.com.tw/C.php?bsn=22797&snA=26097&tnum=6&bPage=3">
+                        <h5 class="card-title">Dev Workshop - 近戰重製第 2 階段：技術層面</h5>
+                        <p class="card-text">之前我們為了近戰系統做過了數個調整 </p>
+                        <p class="card-text"><small class="text-muted">詳情請看近戰重製第 1 階段的 Dev Workshop 文章</small></p></a>
+                      </div>
+                    </div>
+                  </div>        
+                </div>  
+            </div>
+    </section>
+
+    <footer class="page-footer font-small bg-secondary ">
+        <!-- diff : 資料來源網址 -->
+        <!-- Footer -->
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left ">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto ">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold">WARFRAME</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-white" href="#">遊戲</a></li>
+                        <li><a class="text-white" href="#">媒體</a></li>
+                        <li><a class="text-white" href="#">動態</a></li>
+                    </ul>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold">賬戶</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-white" href="#">登入</a></li>
+                        <li><a class="text-white" href="#">註冊</a></li>
+                        <li><a class="text-white" href="#">忘記密碼</a></li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold">社區</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-white" href="#">影音使用政策</a></li>
+                        <li><a class="text-white" href="#">Warframe 維基</a></li>
+                        <li><a class="text-white" href="#">粉絲創作資源包</a></li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto ">
+                    <h5 class="font-weight-bold">客服</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-white" href="#">常見問題解答</a></li>
+                        <li><a class="text-white" href="#">客服</a></li>
+                        <li><a class="text-white" href="#">使用條款</a></li>
+                        <li><a class="text-white" href="#">隱私權保護政策</a></li>
+                        <li><a class="text-white" href="#">最終用戶授權協議</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Grid row -->
+        </div>
+    </footer>
+    <!-- Footer Links -->
+    <!-- Copyright -->
+    <footer class="page-footer font-small indigobg-light ">
+        <div class="footer-copyright text-center py-3 ">Copyright © 2019
+            <a class="text-dark" href="#">
+                線上互動內容未經 ESRB 娛樂軟體分級委員會分級。
+
+                ©2019 Digital Extremes Ltd. 保留所有權利。
+
+                Warframe 和 Warframe logo 是Digital Extremes 有限公司的註冊商標。
+
+                「PS」家族商標和「PS4」為 Sony Interactive Entertainment Inc. 的註冊商標。
+
+                Nintendo Switch 是 Nintendo 的商標</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+</body>
+
+</html>
