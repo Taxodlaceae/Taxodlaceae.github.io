@@ -1,0 +1,487 @@
+body {
+    margin: 0;
+    background-color: rgb(97, 97, 97);
+}
+
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+/* header */
+.burger {
+  display: none;
+}
+
+button {
+  display: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 15px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LOGO {
+    width: 100px;
+    height: 60px;
+    margin-top: 5px;
+} 
+
+header ul.nav-project {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .project {
+    transition: 0.3s;
+}
+
+header .project:hover {
+    background-color: #cccccc;
+}
+
+header .project a {
+    color: white;
+    padding: 25px 30px;
+    display: block;
+    text-decoration: none;
+    font-family: Arial,"微軟正黑體 Light";
+    font-weight: bold;
+}
+
+
+/* section banner */
+* {box-sizing:border-box}
+
+.slideshow-container img{
+  width: 100%;
+  height: 85vh;
+  background-size:cover ;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* section project 內容1*/
+.boxtop {
+  margin-top: 100px;
+}
+
+section p.text {
+  font-size: 2rem;
+  margin: 0 250px;
+  margin-top: 25px;
+  color: #b29c62;
+  font-weight: bold;
+}
+
+section .line {
+  background-color: burlywood;
+  width: 450px;
+  height: 5px;
+}
+
+section .box {
+  /* background-color: chocolate; */
+  margin: 0px;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .left00 {
+  background-color: #434343;
+  width: 487px;
+  height: 70vh;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+section .leftimg {
+  width: 465px;
+  height: 45vh;
+  margin: 10px;
+  background-image:url(./img/154053425919368107_560x420.crop.water1.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+section .left00 p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Arial,"微軟正黑體 Light";
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+section .more {
+  border: 1px solid #ffffff;
+  width: 120px;
+  line-height: 2.4;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+section .right00 {
+  background-color: teal;
+  width: 487px;
+  height: 70vh;
+}
+
+section .right00 {
+  background-color: #434343;
+  width: 487px;
+  height: 70vh;
+  margin-right: 50px;
+}
+
+section .rightimg {
+  width: 465px;
+  height: 45vh;
+  margin: 10px;
+  background-image:url(./img/770618883.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+section .right00 p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Arial,"微軟正黑體 Light";
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* section project 內容2*/
+section p.text-A {
+  font-size: 2rem;
+  margin:0 0 20px 70%;
+  margin-top: 25px;
+  color: #b29c62;
+  font-weight: bold;
+}
+
+section .line-A {
+  background-color: burlywood;
+  width: 460px;
+  height: 5px;
+  margin:0 0 20px 70%;
+}
+
+section .box-A {
+  /* background-color: chocolate; */
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  display:flex;
+  margin-top: 70px;
+}
+
+section .leftimg-A {
+  width: 40%;
+  height: 55vh;
+  list-style-type: none;
+  background-image:url(./img/home-news.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+section .right002 {
+  width: 55%;
+}
+
+section .rightimg-A {
+  width: 100%;
+  height: 55vh;
+  box-sizing: border-box;
+  background-color: #252525;
+  box-shadow: 25px -25px 0px #b29c62;
+  padding: 50px;
+}
+
+section .more-0 {
+  border: 1px solid #ffffff;
+  width: 100%;
+  line-height: 2.4;
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial,"微軟正黑體 Light";
+  padding: 0 0 0 15px;
+}
+
+section .more-1 {
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  line-height: 2.4;
+  color: #ffffff;
+  list-style-type: none;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: Arial,"微軟正黑體 Light";
+}
+
+section .more-2 {
+  border: 1px solid #ffffff;
+  width: 20%;
+  line-height: 2.4;
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* section project 內容3*/
+section p.text-B {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.8;
+  font-family: Arial,"微軟正黑體 Light";
+  font-weight: bold;
+}
+
+section .box-C {
+  margin: 60px;
+}
+
+/* section project footer關於*/
+footer {
+  background-color: rgb(51, 51, 51);
+  
+}
+
+footer .footer-tentbox {
+  list-style-type: none;
+  display: flex;
+  padding-left: 250px;
+  padding-top: 25px;
+  margin: 0px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-family: Arial,"微軟正黑體 Light";
+}
+
+footer ul.footer-tent li{
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+footer .footer-tent {
+  color: white;
+  text-decoration: none;
+  font-family: Arial,"微軟正黑體 Light";
+  margin-top: 10px;
+}
+
+footer .footer-tent-A li {
+  padding-left: 250px;
+  list-style-type: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1280px) {
+
+  .burger {
+    display: block;
+  }
+
+/* //和漢堡樣式 */
+  header button { 
+    display: block;
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    background: transparent;
+    padding: 0 15px;
+    border: 0;
+    border: 1px solid #ffffff;
+  }
+
+  /* //和漢堡一樣的長寬位置 */
+  .burger {  
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    opacity: 0;  
+    /* //隱藏checkbox */
+  }
+
+  header ul.nav-project {
+    display: none;
+  }
+  
+  header .burger:checked + ul.nav-project {
+    display: block;
+  }
+
+  /* // 選單的樣式和位置 // 預設隱藏選單*/
+  ul.nav-project {       
+    display: none; 
+    margin-top: 0;
+    padding-left: 0;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width: 150px;
+    height: 100%;
+  }
+
+  section p.text {
+    font-size: 2rem;
+    margin: 0 50px;
+    margin-top: 25px;
+    color: #b29c62;
+    font-weight: bold;
+  }
+
+  .right00{
+    display: none;
+  }
+
+  .rightimg {
+    display: none;
+  }
+
+  section .leftimg {
+    width: 390px;
+    height: 45vh;
+    margin: 10px;
+    background-image:url(./img/154053425919368107_560x420.crop.water1.jpg) ;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  section p.text-A {
+    font-size: 2rem;
+    margin:0 0 20px 60%;
+    margin-top: 25px;
+    color: #b29c62;
+    font-weight: bold;
+  }
+
+  section .line {
+    width: 400px;
+  }
+
+  section .line-A {
+    width: 400px;
+    height: 5px;
+    margin:0 0 20px 0%;
+  }
+  
+  section .rightimg-A {
+    width: 100%;
+    height: 55vh;
+    box-sizing: border-box;
+    background-color: #252525;
+    box-shadow: 25px -25px 0px #b29c62;
+    padding: 50px;
+    
+  }
+
+  section .box-C {
+    margin: 0px;
+  }
+  
+
+  section p.text-B {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2.5;
+    font-family: Arial,"微軟正黑體 Light";
+    font-weight: bold;
+  }
+  
+
+  footer .footer-tentbox {       
+    display: inline;
+    text-align: center;
+  }
+
+  footer .footer-tent-A li {       
+    padding-left: 0px;
+  }
+}
